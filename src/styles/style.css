@@ -94,3 +94,37 @@ main{
     font-size: var(--font-size-button);
     font-weight: var(--font-weight-button);
 }
+
+/* --- Section financial control --- */
+
+.section-financial-control{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 60px 0;
+    font-family: var(--font-family-primary);
+}
+
+.financial-control-content{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 607px;
+}
+
+.financial-control-content h2{
+    color: var(--color-secondary);
+    font-size: var(--font-size-h2);
+    font-weight: var(--font-weight-h2);
+}
+
+.financial-control-content h2 span{
+    color: var(--color-primary);
+}
+
+.financial-control-content p{
+    color: var(--color-secondary);
+    font-size: var(--font-size-body);
+    font-weight: var(--font-weight-body);
+}
