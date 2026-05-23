@@ -164,3 +164,109 @@ main{
     color: var(--color-neutral-white);
     text-align: center;
 }
+
+/* --- Footer --- */
+
+footer{
+    display: flex;
+    justify-content: center;
+    gap: 126px;
+    padding: 80px 0;
+    font-family: var(--font-family-primary);
+    background-color: var(--color-secondary);
+    border-top: 1px solid var(--color-neutral-white);
+}
+
+.footer-content{
+    display: flex;
+    gap: 50.67px;
+}
+
+.footer-informations{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    color: var(--color-neutral-white);
+}
+
+.footer-informations h2{
+    font-size: var(--font-size-button);
+    font-weight: var(--font-weight-button);
+}
+
+.footer-informations ul{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    list-style: none;
+}
+
+.footer-informations ul li a{
+    color: var(--color-neutral-white);
+    text-decoration: none;
+    font-size: var(--font-size-body);
+    font-weight: var(--font-size-body);
+}
+
+.footer-subscribe{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+    color: var(--color-neutral-white);
+}
+
+.footer-subscribe h2{
+    font-size: var(--font-size-button);
+    font-weight: var(--font-weight-button);
+    width: 198px;
+}
+
+.footer-subscribe form{
+    display: flex;
+    flex-direction: row;
+    width: 385px;
+    border-bottom: 0.5px solid #4D4D4D;
+    padding: 0px 0px 16px;
+}
+
+.footer-subscribe form input{
+    display: flex;
+    flex-direction: column;
+    border: 0px;
+    padding: 10.5px 0;
+    color: var(--color-neutral-white);
+    font-size: var(--font-size-body);
+    font-weight: var(--font-weight-body);
+    width: var(--font-weight-body);
+    background-color: var(--color-secondary);
+    width: 345px;
+}
+
+.footer-subscribe form input:focus {
+  outline: none;
+}
+
+.footer-subscribe form input::placeholder{
+    color: var(--color-neutral-white);
+    font-size: var(--font-size-body);
+    font-weight: var(--font-weight-body);
+}
+
+.footer-subscribe form button{
+    display: flex;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: var(--color-primary);
+    border-radius: 360px;
+}
+
+.footer-subscribe form button img{
+    width: 18px;
+}
+
+.footer-subscribe form button:hover{
+    background-color:  #b879f7;
+    cursor: pointer;
+}
