@@ -53,12 +53,9 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ## 🦸 Autor
 
-
 <a href="https://www.linkedin.com/in/onita-lombardi">Onita Lombardi</a>
 
 <div style="display:flex; flex-direction:row; justify-content:flex-start; align-items:center; gap:5px;">
 
-[![Static Badge](https://img.shields.io/badge/LinkedIn-%230A66C2?style=flat-square)](https://www.linkedin.com/in/onita-lombardi)
-
-[![Gmail Badge](https://img.shields.io/badge/-onita.clombardi@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:onita.clombardi@gmail.com)](mailto:onita.clombardi@gmail.com)
+[![Static Badge](https://img.shields.io/badge/LinkedIn-%230A66C2?style=flat-square)](https://www.linkedin.com/in/onita-lombardi) [![Gmail Badge](https://img.shields.io/badge/-onita.clombardi@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:onita.clombardi@gmail.com)](mailto:onita.clombardi@gmail.com)
 </div>
